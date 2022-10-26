@@ -71,8 +71,8 @@ const Login = (props) => {
             type="email"
             id="email"
             value={enteredEmail}
-            onChange={emailChangeHandler}
-            onBlur={validateEmailHandler} // Обработчик onBlur события вызывается, когда фокус покидает элемент
+            onChange={emailChangeHandler} // onChangeсобытий — это реквизит, который вы можете передать в <input>
+            onBlur={validateEmailHandler} // Обработчик onBlur inсобытия вызывается, когда фокус покидает элемент
           />
         </div>
         <div
